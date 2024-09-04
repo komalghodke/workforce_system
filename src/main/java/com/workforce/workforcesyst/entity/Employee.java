@@ -25,4 +25,23 @@ public class Employee {
 	private String firstName;
 	private String lastName;
 	private String emailId;
+	
+	public Employee(Long id, String firstName, String lastName, String emailId) {
+	}
+
+	public Object getId() {
+		return id;	}
+
+	public Object getFirstName() {
+		return firstName;
+	}
+
+	public Object getLastName() {
+		return lastName;
+	}
+	
+	public Object getEmailId() {
+		return emailId;
+	}
+
 }
